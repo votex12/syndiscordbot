@@ -7,19 +7,19 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === '!kgmalden') {
-    msg.reply('KG auf Malden!');
+    msg.reply('@here KG auf Malden!');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === '!kgtanoa') {
-    msg.reply('KG auf Malden!');
+    msg.reply('@here KG auf Malden!');
   }96
 });
 
 client.on('message', msg => {
   if (msg.content === '!kgaltis') {
-    msg.reply('KG auf Altis!');
+    msg.reply('@here KG auf Altis!');
   }
 });
 
