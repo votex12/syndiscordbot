@@ -1,0 +1,2 @@
+# syndiscordbot
+BotSyn
