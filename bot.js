@@ -7,19 +7,19 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === '!kgmalden') {
-    msg.reply('Grade KG auf Malden [Joinen]');
+    msg.reply('Es läuft momentan ein KG auf malden von uns');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === '!kgtanoa') {
-    msg.reply('Grade KG auf Malden [Joinen]');
+    msg.reply('Es läuft momentan ein KG auf Tanoa von uns');
   }96
 });
 
 client.on('message', msg => {
   if (msg.content === '!kgaltis') {
-    msg.reply('Grade KG auf Altis [Joinen]');
+    msg.reply('Es läuft momentan ein KG auf Altis von uns');
   }
 });
 
