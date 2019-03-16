@@ -23,5 +23,23 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === '!kgaltisvorbei') {
+    msg.reply('@here Das KG auf Altis ist vorbei!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === '!kgtanoavorbei') {
+    msg.reply('@here Das KG auf Tanoa ist vorbei!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === '!kgmaldenvorbei') {
+    msg.reply('@here Das KG auf Malden ist vorbei!');
+  }
+});
+
 
 client.login(process.env.BOT_TOKEN);
