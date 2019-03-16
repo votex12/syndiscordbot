@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!bank') {
-    	message.reply('Jetzt ist Bank auf Malden');
+    if (message.content === 'test') {
+    	message.reply('Test');
   	}
 });
 
